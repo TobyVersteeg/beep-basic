@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.error-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.error-page h1 {
+    font-size: 2rem;
+    color: gray;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+}
+
+.error-message {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    color: black;
+}
+
+.layer {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+}
